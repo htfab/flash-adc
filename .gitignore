@@ -1,0 +1,6 @@
+*~
+mag/extfiles
+mag/comp.out
+mag/comp.json
+verilog/test/sim_build
+verilog/test/results.xml

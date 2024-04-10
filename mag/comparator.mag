@@ -1,0 +1,116 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1712769939
+<< nwell >>
+rect 3298 152 3498 212
+rect 3298 146 3460 152
+rect 3298 -188 3458 146
+<< via1 >>
+rect 3306 20 3490 204
+rect 3306 -240 3490 -56
+rect 4056 -240 4240 -56
+rect 3306 -500 3490 -316
+<< metal2 >>
+rect 1240 1556 1440 1588
+rect 1618 1556 1818 1588
+rect 2030 1556 2230 1586
+rect 380 1508 3252 1556
+rect 380 -366 428 1508
+rect 1240 1388 1440 1508
+rect 1618 1388 1818 1508
+rect 2030 1386 2230 1508
+rect 3204 202 3252 1508
+rect 3298 204 3498 212
+rect 3298 202 3306 204
+rect 3204 154 3306 202
+rect 3298 20 3306 154
+rect 3490 20 3498 204
+rect 3298 12 3498 20
+rect 3298 -56 3498 -48
+rect 3298 -123 3306 -56
+rect 3181 -173 3306 -123
+rect 3298 -240 3306 -173
+rect 3490 -240 3498 -56
+rect 3298 -248 3498 -240
+rect 4048 -56 4248 -48
+rect 4048 -240 4056 -56
+rect 4240 -240 4248 -56
+rect 4048 -248 4248 -240
+rect 3298 -316 3498 -308
+rect 370 -566 570 -366
+rect 3298 -500 3306 -316
+rect 3490 -500 3498 -316
+rect 3298 -508 3498 -500
+rect 370 -824 570 -624
+rect 3308 -638 3356 -508
+rect 3204 -686 3356 -638
+rect 370 -1080 570 -880
+rect 370 -1408 570 -1394
+rect 790 -1408 1054 -1348
+rect 1166 -1408 1430 -1346
+rect 1542 -1408 1806 -1346
+rect 2750 -1408 3014 -1342
+rect 3204 -1408 3252 -686
+rect 370 -1456 3252 -1408
+rect 370 -1594 570 -1456
+rect 790 -1500 1054 -1456
+rect 1166 -1498 1430 -1456
+rect 1542 -1498 1806 -1456
+rect 2750 -1494 3014 -1456
+<< via2 >>
+rect 3308 22 3488 202
+rect 3308 -498 3488 -318
+<< metal3 >>
+rect 1022 570 3498 770
+rect 3298 202 3498 570
+rect 3298 22 3308 202
+rect 3488 22 3498 202
+rect 3298 12 3498 22
+rect 3298 -318 3498 -308
+rect 3298 -498 3308 -318
+rect 3488 -498 3498 -318
+rect 3298 -880 3498 -498
+rect 646 -1080 3498 -880
+use buffer  buffer_0
+timestamp 1712769939
+transform 1 0 2608 0 1 282
+box 690 -849 1640 -17
+use opamp  opamp_0
+timestamp 1712769939
+transform 1 0 -2834 0 1 82
+box 3204 -1676 6132 1720
+<< labels >>
+flabel metal2 370 -1594 570 -1394 0 FreeSans 256 0 0 0 VSS
+port 4 nsew
+flabel metal2 370 -1080 570 -880 0 FreeSans 256 0 0 0 N
+port 3 nsew
+flabel metal2 370 -824 570 -624 0 FreeSans 256 0 0 0 P
+port 2 nsew
+flabel metal2 370 -566 570 -366 0 FreeSans 256 0 0 0 VDD
+port 0 nsew
+flabel metal3 3298 -508 3498 -308 0 FreeSans 256 0 0 0 VSS
+port 4 nsew
+flabel metal2 4048 -248 4248 -48 0 FreeSans 256 0 0 0 OUT
+port 1 nsew
+flabel metal2 1618 1388 1818 1588 0 FreeSans 256 0 0 0 VDD
+port 0 nsew
+flabel metal2 2030 1386 2230 1586 0 FreeSans 256 0 0 0 VDD
+port 0 nsew
+flabel metal2 1240 1388 1440 1588 0 FreeSans 256 0 0 0 VDD
+port 0 nsew
+flabel metal3 3298 12 3498 212 0 FreeSans 256 0 0 0 VDD
+port 0 nsew
+flabel metal2 2750 -1494 3014 -1342 0 FreeSans 256 0 0 0 VSS
+port 4 nsew
+flabel metal2 1542 -1498 1806 -1346 0 FreeSans 256 0 0 0 VSS
+port 4 nsew
+flabel metal2 1166 -1498 1430 -1346 0 FreeSans 256 0 0 0 VSS
+port 4 nsew
+flabel metal2 790 -1500 1054 -1348 0 FreeSans 256 0 0 0 VSS
+port 4 nsew
+flabel metal3 1022 570 3498 770 0 FreeSans 256 0 0 0 VDD
+port 0 nsew
+flabel metal3 646 -1080 3498 -880 0 FreeSans 256 0 0 0 VSS
+port 4 nsew
+<< end >>

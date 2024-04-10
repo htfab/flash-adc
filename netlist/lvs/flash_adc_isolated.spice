@@ -1,0 +1,129 @@
+* NGSPICE file created from flash_adc_isolated.ext - technology: sky130A
+
+.subckt sky130_fd_pr__res_xhigh_po_0p35_MDZYBC a_48_n1041# a_n284_n1041# a_n118_n1041#
++ a_48_609# a_214_609# a_n284_609# a_214_n1041# a_n118_609# VSUBS
+X0 a_n118_609# a_n118_n1041# VSUBS sky130_fd_pr__res_xhigh_po_0p35 l=6.09
+X1 a_214_609# a_214_n1041# VSUBS sky130_fd_pr__res_xhigh_po_0p35 l=6.09
+X2 a_n284_609# a_n284_n1041# VSUBS sky130_fd_pr__res_xhigh_po_0p35 l=6.09
+X3 a_48_609# a_48_n1041# VSUBS sky130_fd_pr__res_xhigh_po_0p35 l=6.09
+.ends
+
+.subckt sky130_fd_pr__pfet_g5v0d10v5_EFU7LQ a_n100_n1015# w_n194_n1018# a_n158_118#
++ a_n100_21# w_n194_18# a_100_n918# a_n158_n918# a_100_118#
+X0 a_100_118# a_n100_21# a_n158_118# w_n194_18# sky130_fd_pr__pfet_g5v0d10v5 ad=1.16 pd=8.58 as=1.16 ps=8.58 w=4 l=1
+X1 a_100_n918# a_n100_n1015# a_n158_n918# w_n194_n1018# sky130_fd_pr__pfet_g5v0d10v5 ad=1.16 pd=8.58 as=1.16 ps=8.58 w=4 l=1
+.ends
+
+.subckt sky130_fd_pr__nfet_g5v0d10v5_H94GUP a_n100_n597# a_n100_21# a_100_109# a_100_n509#
++ a_n158_n509# a_n158_109# VSUBS
+X0 a_100_n509# a_n100_n597# a_n158_n509# VSUBS sky130_fd_pr__nfet_g5v0d10v5 ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=1
+X1 a_100_109# a_n100_21# a_n158_109# VSUBS sky130_fd_pr__nfet_g5v0d10v5 ad=0.58 pd=4.58 as=0.58 ps=4.58 w=2 l=1
+.ends
+
+.subckt opamp VDD OUT P N VSS
+Xsky130_fd_pr__res_xhigh_po_0p35_MDZYBC_0 m1_3536_1272# m1_3204_1272# m1_3204_1272#
++ m1_3370_n378# m1_3479_n1228# VDD m1_3536_1272# m1_3370_n378# VSS sky130_fd_pr__res_xhigh_po_0p35_MDZYBC
+Xsky130_fd_pr__pfet_g5v0d10v5_EFU7LQ_0 m1_4607_n611# VDD m1_4607_n611# m1_4607_n611#
++ VDD VDD m1_4607_n611# VDD sky130_fd_pr__pfet_g5v0d10v5_EFU7LQ
+Xsky130_fd_pr__pfet_g5v0d10v5_EFU7LQ_1 m1_3836_n684# VDD m1_3836_n684# m1_3836_n684#
++ VDD VDD m1_3836_n684# VDD sky130_fd_pr__pfet_g5v0d10v5_EFU7LQ
+Xsky130_fd_pr__pfet_g5v0d10v5_EFU7LQ_2 m1_3836_n684# VDD m1_4233_427# m1_3836_n684#
++ VDD VDD m1_4233_427# VDD sky130_fd_pr__pfet_g5v0d10v5_EFU7LQ
+Xsky130_fd_pr__pfet_g5v0d10v5_EFU7LQ_3 P VDD m1_5361_421# P VDD m1_4233_427# m1_5361_421#
++ m1_4233_427# sky130_fd_pr__pfet_g5v0d10v5_EFU7LQ
+Xsky130_fd_pr__pfet_g5v0d10v5_EFU7LQ_4 m1_4607_n611# VDD VDD m1_4607_n611# VDD OUT
++ VDD OUT sky130_fd_pr__pfet_g5v0d10v5_EFU7LQ
+Xsky130_fd_pr__pfet_g5v0d10v5_EFU7LQ_5 N VDD m1_4233_427# N VDD OUT m1_4233_427# OUT
++ sky130_fd_pr__pfet_g5v0d10v5_EFU7LQ
+Xsky130_fd_pr__nfet_g5v0d10v5_H94GUP_0 m1_5361_421# m1_5361_421# OUT OUT VSS VSS VSS
++ sky130_fd_pr__nfet_g5v0d10v5_H94GUP
+Xsky130_fd_pr__nfet_g5v0d10v5_H94GUP_1 m1_3479_n1228# m1_3479_n1228# VSS VSS m1_3479_n1228#
++ m1_3479_n1228# VSS sky130_fd_pr__nfet_g5v0d10v5_H94GUP
+Xsky130_fd_pr__nfet_g5v0d10v5_H94GUP_2 m1_3479_n1228# m1_3479_n1228# VSS VSS m1_3836_n684#
++ m1_3836_n684# VSS sky130_fd_pr__nfet_g5v0d10v5_H94GUP
+Xsky130_fd_pr__nfet_g5v0d10v5_H94GUP_3 m1_3479_n1228# m1_3479_n1228# VSS VSS m1_4888_n610#
++ m1_4888_n610# VSS sky130_fd_pr__nfet_g5v0d10v5_H94GUP
+Xsky130_fd_pr__nfet_g5v0d10v5_H94GUP_4 P P m1_4888_n610# m1_4888_n610# m1_4607_n611#
++ m1_4607_n611# VSS sky130_fd_pr__nfet_g5v0d10v5_H94GUP
+Xsky130_fd_pr__nfet_g5v0d10v5_H94GUP_5 N N OUT OUT m1_4888_n610# m1_4888_n610# VSS
++ sky130_fd_pr__nfet_g5v0d10v5_H94GUP
+Xsky130_fd_pr__nfet_g5v0d10v5_H94GUP_6 m1_5361_421# m1_5361_421# VSS VSS m1_5361_421#
++ m1_5361_421# VSS sky130_fd_pr__nfet_g5v0d10v5_H94GUP
+.ends
+
+.subckt vfollower VDD OUT IN VSS
+Xopamp_0 VDD OUT IN OUT VSS opamp
+.ends
+
+.subckt sky130_fd_pr__res_xhigh_po_0p35_29QZGQ a_n35_234# a_n165_n796# a_n35_n666#
+X0 a_n35_234# a_n35_n666# a_n165_n796# sky130_fd_pr__res_xhigh_po_0p35 l=2.34
+.ends
+
+.subckt sky130_fd_pr__nfet_g5v0d10v5_VNEAGC a_n50_n138# a_n108_n50# a_50_n50# VSUBS
+X0 a_50_n50# a_n50_n138# a_n108_n50# VSUBS sky130_fd_pr__nfet_g5v0d10v5 ad=0.145 pd=1.58 as=0.145 ps=1.58 w=0.5 l=0.5
+.ends
+
+.subckt sky130_fd_pr__pfet_g5v0d10v5_PC3LZ5 a_n50_n197# a_50_n100# w_n144_n200# a_n108_n100#
+X0 a_50_n100# a_n50_n197# a_n108_n100# w_n144_n200# sky130_fd_pr__pfet_g5v0d10v5 ad=0.29 pd=2.58 as=0.29 ps=2.58 w=1 l=0.5
+.ends
+
+.subckt buffer VDD OUT IN VSS
+Xsky130_fd_pr__nfet_g5v0d10v5_VNEAGC_0 IN VSS a_1090_n370# VSS sky130_fd_pr__nfet_g5v0d10v5_VNEAGC
+Xsky130_fd_pr__nfet_g5v0d10v5_VNEAGC_2 a_1090_n370# VSS OUT VSS sky130_fd_pr__nfet_g5v0d10v5_VNEAGC
+Xsky130_fd_pr__pfet_g5v0d10v5_PC3LZ5_0 a_1090_n370# OUT VDD VDD sky130_fd_pr__pfet_g5v0d10v5_PC3LZ5
+Xsky130_fd_pr__pfet_g5v0d10v5_PC3LZ5_1 IN a_1090_n370# VDD VDD sky130_fd_pr__pfet_g5v0d10v5_PC3LZ5
+.ends
+
+.subckt comparator P N OUT VDD VSS
+Xopamp_0 VDD opamp_0/OUT P N VSS opamp
+Xbuffer_0 VDD OUT opamp_0/OUT VSS buffer
+.ends
+
+.subckt ladder_rung REF2 IN OUT REF1 VSS VDD
+Xsky130_fd_pr__res_xhigh_po_0p35_29QZGQ_0 REF2 VSS comparator_0/N sky130_fd_pr__res_xhigh_po_0p35_29QZGQ
+Xsky130_fd_pr__res_xhigh_po_0p35_29QZGQ_1 comparator_0/N VSS REF1 sky130_fd_pr__res_xhigh_po_0p35_29QZGQ
+Xcomparator_0 IN comparator_0/N OUT VDD VSS comparator
+.ends
+
+.subckt flash_adc IN OUT14 OUT13 OUT12 OUT11 OUT10 OUT9 OUT8 OUT7 OUT6 OUT5 OUT4 OUT3
++ OUT2 OUT1 OUT0 VSS VDD
+Xvfollower_0 VDD vfollower_0/OUT IN VSS vfollower
+Xvfollower_1 VDD vfollower_1/OUT IN VSS vfollower
+Xvfollower_2 VDD vfollower_2/OUT IN VSS vfollower
+Xvfollower_3 VDD vfollower_3/OUT IN VSS vfollower
+Xladder_rung_10 ladder_rung_11/REF1 vfollower_2/OUT OUT10 ladder_rung_9/REF2 VSS VDD
++ ladder_rung
+Xladder_rung_11 ladder_rung_12/REF2 vfollower_2/OUT OUT11 ladder_rung_11/REF1 VSS
++ VDD ladder_rung
+Xladder_rung_12 ladder_rung_12/REF2 vfollower_3/OUT OUT12 ladder_rung_13/REF2 VSS
++ VDD ladder_rung
+Xladder_rung_13 ladder_rung_13/REF2 vfollower_3/OUT OUT13 ladder_rung_14/REF2 VSS
++ VDD ladder_rung
+Xladder_rung_14 ladder_rung_14/REF2 vfollower_3/OUT OUT14 VDD VSS VDD ladder_rung
+Xladder_rung_0 ladder_rung_1/REF1 vfollower_0/OUT OUT0 VSS VSS VDD ladder_rung
+Xladder_rung_1 ladder_rung_2/REF1 vfollower_0/OUT OUT1 ladder_rung_1/REF1 VSS VDD
++ ladder_rung
+Xladder_rung_2 ladder_rung_3/REF1 vfollower_0/OUT OUT2 ladder_rung_2/REF1 VSS VDD
++ ladder_rung
+Xladder_rung_4 ladder_rung_4/REF2 vfollower_1/OUT OUT4 ladder_rung_5/REF2 VSS VDD
++ ladder_rung
+Xladder_rung_3 ladder_rung_4/REF2 vfollower_0/OUT OUT3 ladder_rung_3/REF1 VSS VDD
++ ladder_rung
+Xladder_rung_5 ladder_rung_5/REF2 vfollower_1/OUT OUT5 ladder_rung_6/REF2 VSS VDD
++ ladder_rung
+Xladder_rung_6 ladder_rung_6/REF2 vfollower_1/OUT OUT6 ladder_rung_7/REF2 VSS VDD
++ ladder_rung
+Xladder_rung_7 ladder_rung_7/REF2 vfollower_1/OUT OUT7 ladder_rung_8/REF1 VSS VDD
++ ladder_rung
+Xladder_rung_8 ladder_rung_9/REF1 vfollower_2/OUT OUT8 ladder_rung_8/REF1 VSS VDD
++ ladder_rung
+Xladder_rung_9 ladder_rung_9/REF2 vfollower_2/OUT OUT9 ladder_rung_9/REF1 VSS VDD
++ ladder_rung
+.ends
+
+.subckt flash_adc_isolated VDD IN OUT14 OUT13 OUT12 OUT11 OUT10 OUT9 OUT8 OUT7 OUT6
++ OUT5 OUT4 OUT3 OUT2 OUT1 OUT0 VSS
+Xflash_adc_0 IN OUT14 OUT13 OUT12 OUT11 OUT10 OUT9 OUT8 OUT7 OUT6 OUT5 OUT4 OUT3 OUT2
++ OUT1 OUT0 VSS VDD flash_adc
+.ends
+

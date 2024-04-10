@@ -1,0 +1,64 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1712769939
+<< metal2 >>
+rect 3096 148 3296 348
+rect 3166 107 3216 148
+rect 3165 71 3216 107
+rect 3165 51 3215 71
+rect 368 20 568 30
+rect 368 -160 378 20
+rect 558 -160 568 20
+rect 368 -170 568 -160
+rect 2405 1 3215 51
+rect 368 -428 568 -228
+rect 2405 -387 2455 1
+rect 2405 -437 2501 -387
+rect 368 -684 568 -484
+rect 443 -744 493 -684
+rect 368 -862 568 -744
+rect 368 -871 566 -862
+rect 2451 -871 2501 -437
+rect 368 -921 2501 -871
+rect 368 -944 566 -921
+rect 368 -1008 568 -998
+rect 368 -1188 378 -1008
+rect 558 -1188 568 -1008
+rect 368 -1198 568 -1188
+<< via2 >>
+rect 378 -160 558 20
+rect 378 -1188 558 -1008
+<< metal3 >>
+rect 368 966 3296 1166
+rect 368 20 568 966
+rect 368 -160 378 20
+rect 558 -160 568 20
+rect 368 -170 568 -160
+rect 368 -684 3296 -484
+rect 368 -1008 568 -684
+rect 368 -1188 378 -1008
+rect 558 -1188 568 -1008
+rect 368 -1198 568 -1188
+use opamp  opamp_0
+timestamp 1712769939
+transform 1 0 -2836 0 1 478
+box 3204 -1676 6132 1720
+<< labels >>
+flabel metal2 368 -1198 568 -998 0 FreeSans 256 0 0 0 VSS
+port 3 nsew
+flabel metal2 368 -170 568 30 0 FreeSans 256 0 0 0 VDD
+port 0 nsew
+flabel metal2 368 -428 568 -228 0 FreeSans 256 0 0 0 IN
+port 2 nsew
+flabel metal2 3096 148 3296 348 0 FreeSans 256 0 0 0 OUT
+port 1 nsew
+flabel metal3 368 966 3296 1166 0 FreeSans 256 0 0 0 VDD
+port 0 nsew
+flabel metal2 368 -684 568 -484 0 FreeSans 256 0 0 0 OUT
+port 1 nsew
+flabel metal2 368 -944 568 -744 0 FreeSans 256 0 0 0 OUT
+port 1 nsew
+flabel metal3 368 -684 3296 -484 0 FreeSans 256 0 0 0 VSS
+port 3 nsew
+<< end >>
