@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1712769939
+timestamp 1713023969
 << metal1 >>
 rect 1258 1278 1328 1284
 rect 1258 840 1328 846
@@ -89,15 +89,15 @@ rect 1726 -1848 1736 -1668
 rect 1916 -1848 1926 -1668
 rect 1726 -1858 1926 -1848
 use comparator  comparator_0
-timestamp 1712769939
+timestamp 1713023969
 transform 1 0 1356 0 1 -264
 box 370 -1594 4248 1802
 use cells/sky130_fd_pr__res_xhigh_po_0p35_29QZGQ  sky130_fd_pr__res_xhigh_po_0p35_29QZGQ_0 cells
-timestamp 1712769939
+timestamp 1713023969
 transform 1 0 1293 0 1 612
 box -201 -832 201 832
 use cells/sky130_fd_pr__res_xhigh_po_0p35_29QZGQ  sky130_fd_pr__res_xhigh_po_0p35_29QZGQ_1
-timestamp 1712769939
+timestamp 1713023969
 transform 1 0 1293 0 1 -946
 box -201 -832 201 832
 << labels >>

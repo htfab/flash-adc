@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1712769939
+timestamp 1713023969
 << metal2 >>
 rect 3096 148 3296 348
 rect 3166 107 3216 148
@@ -41,7 +41,7 @@ rect 368 -1188 378 -1008
 rect 558 -1188 568 -1008
 rect 368 -1198 568 -1188
 use opamp  opamp_0
-timestamp 1712769939
+timestamp 1713023969
 transform 1 0 -2836 0 1 478
 box 3204 -1676 6132 1720
 << labels >>
