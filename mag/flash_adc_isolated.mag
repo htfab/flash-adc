@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1713334679
+timestamp 1713341356
 << dnwell >>
 rect 440 300 19376 18582
 << nwell >>
@@ -142,7 +142,7 @@ rect 19584 1092 19594 1290
 rect 2 1090 19594 1092
 rect 3 1085 213 1090
 use flash_adc  flash_adc_0
-timestamp 1713334679
+timestamp 1713341356
 transform 1 0 -456 0 1 7408
 box 456 -7408 20048 10895
 << labels >>

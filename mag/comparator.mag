@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1713337056
+timestamp 1713341356
 << nwell >>
 rect 3298 152 3498 212
 rect 3298 146 3460 152
@@ -77,7 +77,7 @@ timestamp 1713334679
 transform 1 0 2608 0 1 282
 box 690 -849 1640 -17
 use opamp  opamp_0
-timestamp 1713337056
+timestamp 1713341356
 transform 1 0 -2834 0 1 82
 box 3204 -1676 6132 1720
 << labels >>

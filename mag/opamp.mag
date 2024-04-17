@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1713337056
+timestamp 1713341356
 << nwell >>
 rect 3796 1524 6132 1720
 rect 3800 -432 6132 1524
@@ -848,7 +848,7 @@ timestamp 1713334679
 transform 1 0 5906 0 1 586
 box -224 -1018 224 1018
 use sky130_fd_pr__res_xhigh_po_0p35_MDZYBC  sky130_fd_pr__res_xhigh_po_0p35_MDZYBC_0 cells
-timestamp 1713334679
+timestamp 1713341356
 transform 1 0 3488 0 -1 663
 box -284 -1041 284 1041
 << labels >>
