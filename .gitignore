@@ -6,3 +6,4 @@ mag/*.spice
 openlane/encoder/runs
 verilog/test/sim_build
 verilog/test/results.xml
+verilog/test/__pycache__

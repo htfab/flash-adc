@@ -40,14 +40,14 @@ pinout:
   uo[7]: "unary bit 13"
 
   # Bidirectional pins
-  uio[0]: "unary 0^4^8^12"
-  uio[1]: "unary 1^5^9^13"
-  uio[2]: "unary 2^6^10^14"
-  uio[3]: "unary 3^7^11^15"
-  uio[4]: "unary 4*sel"
-  uio[5]: "unary 4*sel+1"
-  uio[6]: "unary 4*sel+2"
-  uio[7]: "unary 4*sel+3"
+  uio[0]: "xor of unary bits 0, 4, 8, 12"
+  uio[1]: "xor of unary bits 1, 5, 9, 13"
+  uio[2]: "xor of unary bits 2, 6, 10, 14"
+  uio[3]: "xor of unary bits 3, 7, 11"
+  uio[4]: "unary bit 4*sel"
+  uio[5]: "unary bit 4*sel+1"
+  uio[6]: "unary bit 4*sel+2"
+  uio[7]: "unary bit 4*sel+3"
 
   # Analog pins - you can add more if you use them, up to 6.
   # Keep only the "ua" pins you are actually using, and *delete* any unused "ua" pins.
