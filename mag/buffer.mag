@@ -1,31 +1,29 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1713023969
+timestamp 1713334679
 << nwell >>
-rect 850 -470 1610 -70
-<< mvpdiff >>
-rect 1090 -370 1116 -358
+rect 690 -470 1610 -20
 << mvpsubdiff >>
-rect 1494 -710 1536 -686
-rect 1494 -776 1536 -752
+rect 1446 -821 1470 -779
+rect 1512 -821 1536 -779
 << mvnsubdiff >>
-rect 1502 -194 1544 -170
-rect 1502 -260 1544 -236
+rect 1450 -128 1474 -86
+rect 1516 -128 1540 -86
 << mvpsubdiffcont >>
-rect 1494 -752 1536 -710
+rect 1470 -821 1512 -779
 << mvnsubdiffcont >>
-rect 1502 -236 1544 -194
+rect 1474 -128 1516 -86
 << locali >>
-rect 1502 -194 1544 -178
-rect 1502 -252 1544 -236
-rect 1494 -710 1536 -694
-rect 1494 -768 1536 -752
+rect 1458 -128 1474 -86
+rect 1516 -128 1532 -86
+rect 1454 -821 1470 -779
+rect 1512 -821 1528 -779
 << viali >>
-rect 1505 -231 1539 -197
-rect 1498 -747 1532 -713
+rect 1477 -125 1511 -91
+rect 1475 -817 1509 -783
 << metal1 >>
-rect 852 -55 1541 -17
+rect 852 -55 1449 -17
 rect 852 -70 890 -55
 rect 690 -229 890 -70
 rect 690 -267 968 -229
@@ -33,6 +31,7 @@ rect 690 -270 890 -267
 rect 690 -475 890 -330
 rect 1009 -450 1047 -89
 rect 1167 -157 1205 -55
+rect 1411 -85 1449 -55
 rect 1167 -195 1248 -157
 rect 1087 -375 1163 -337
 rect 978 -475 1047 -450
@@ -46,11 +45,11 @@ rect 690 -790 891 -759
 rect 1009 -774 1047 -544
 rect 1125 -473 1163 -375
 rect 1289 -441 1327 -89
-rect 1503 -185 1541 -55
-rect 1499 -197 1545 -185
-rect 1499 -231 1505 -197
-rect 1539 -231 1545 -197
-rect 1499 -243 1545 -231
+rect 1411 -91 1523 -85
+rect 1411 -125 1477 -91
+rect 1511 -125 1523 -91
+rect 1411 -127 1523 -125
+rect 1465 -131 1523 -127
 rect 1368 -330 1406 -251
 rect 1368 -375 1640 -330
 rect 1257 -473 1327 -441
@@ -65,26 +64,27 @@ rect 1289 -774 1327 -556
 rect 1405 -530 1640 -375
 rect 1405 -595 1443 -530
 rect 1367 -633 1443 -595
-rect 1492 -713 1538 -701
-rect 1492 -747 1498 -713
-rect 1532 -747 1538 -713
-rect 1492 -759 1538 -747
-rect 1496 -811 1533 -759
-rect 853 -849 1533 -811
-use cells/sky130_fd_pr__nfet_g5v0d10v5_VNEAGC  sky130_fd_pr__nfet_g5v0d10v5_VNEAGC_0 cells
-timestamp 1713023969
+rect 1463 -781 1521 -777
+rect 1410 -783 1521 -781
+rect 1410 -811 1475 -783
+rect 853 -817 1475 -811
+rect 1509 -817 1521 -783
+rect 853 -823 1521 -817
+rect 853 -849 1450 -823
+use sky130_fd_pr__nfet_g5v0d10v5_VNEAGC  sky130_fd_pr__nfet_g5v0d10v5_VNEAGC_0 cells
+timestamp 1713334679
 transform 1 0 1028 0 1 -652
 box -108 -138 108 138
-use cells/sky130_fd_pr__nfet_g5v0d10v5_VNEAGC  sky130_fd_pr__nfet_g5v0d10v5_VNEAGC_2
-timestamp 1713023969
+use sky130_fd_pr__nfet_g5v0d10v5_VNEAGC  sky130_fd_pr__nfet_g5v0d10v5_VNEAGC_2
+timestamp 1713334679
 transform 1 0 1308 0 1 -652
 box -108 -138 108 138
-use cells/sky130_fd_pr__pfet_g5v0d10v5_PC3LZ5  sky130_fd_pr__pfet_g5v0d10v5_PC3LZ5_0 cells
-timestamp 1713023969
+use sky130_fd_pr__pfet_g5v0d10v5_PC3LZ5  sky130_fd_pr__pfet_g5v0d10v5_PC3LZ5_0 cells
+timestamp 1713334679
 transform 1 0 1308 0 1 -270
 box -174 -200 174 200
-use cells/sky130_fd_pr__pfet_g5v0d10v5_PC3LZ5  sky130_fd_pr__pfet_g5v0d10v5_PC3LZ5_1
-timestamp 1713023969
+use sky130_fd_pr__pfet_g5v0d10v5_PC3LZ5  sky130_fd_pr__pfet_g5v0d10v5_PC3LZ5_1
+timestamp 1713334679
 transform 1 0 1028 0 1 -270
 box -174 -200 174 200
 << labels >>

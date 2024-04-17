@@ -68,10 +68,10 @@ X0 a_50_n100# a_n50_n197# a_n108_n100# w_n144_n200# sky130_fd_pr__pfet_g5v0d10v5
 .ends
 
 .subckt buffer VDD OUT IN VSS
-Xsky130_fd_pr__nfet_g5v0d10v5_VNEAGC_0 IN VSS a_1090_n370# VSS sky130_fd_pr__nfet_g5v0d10v5_VNEAGC
-Xsky130_fd_pr__nfet_g5v0d10v5_VNEAGC_2 a_1090_n370# VSS OUT VSS sky130_fd_pr__nfet_g5v0d10v5_VNEAGC
-Xsky130_fd_pr__pfet_g5v0d10v5_PC3LZ5_0 a_1090_n370# OUT VDD VDD sky130_fd_pr__pfet_g5v0d10v5_PC3LZ5
-Xsky130_fd_pr__pfet_g5v0d10v5_PC3LZ5_1 IN a_1090_n370# VDD VDD sky130_fd_pr__pfet_g5v0d10v5_PC3LZ5
+Xsky130_fd_pr__nfet_g5v0d10v5_VNEAGC_0 IN VSS m1_1087_n633# VSS sky130_fd_pr__nfet_g5v0d10v5_VNEAGC
+Xsky130_fd_pr__nfet_g5v0d10v5_VNEAGC_2 m1_1087_n633# VSS OUT VSS sky130_fd_pr__nfet_g5v0d10v5_VNEAGC
+Xsky130_fd_pr__pfet_g5v0d10v5_PC3LZ5_0 m1_1087_n633# OUT VDD VDD sky130_fd_pr__pfet_g5v0d10v5_PC3LZ5
+Xsky130_fd_pr__pfet_g5v0d10v5_PC3LZ5_1 IN m1_1087_n633# VDD VDD sky130_fd_pr__pfet_g5v0d10v5_PC3LZ5
 .ends
 
 .subckt comparator P N OUT VDD VSS
